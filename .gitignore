@@ -1,0 +1,5 @@
+# NPM packages folder.
+node_modules/
+demo/node_modules/
+
+lib/
