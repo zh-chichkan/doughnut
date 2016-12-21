@@ -27,12 +27,9 @@ class HihgChartsWrapper extends Component {
 
   componentWillReceiveProps (nextProps) {
     this.chart = new Highcharts.chart(nextProps.container, nextProps.options);
-    console.log('componentWillReceiveProps');
   }
 
   render () {
-    console.log(this.props.options);
-
     return <div id = { this.props.container } style = { this.props.style }></div>;
   }
 }

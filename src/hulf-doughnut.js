@@ -4,10 +4,6 @@ import HihgChartsWrapper from './hihg-charts-wrapper';
 class HalfDoughnut extends Component {
   constructor (...args) {
     super(...args);
-
-    this.state = {
-      options: {}
-    }
   }
 
   render () {
