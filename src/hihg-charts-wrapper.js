@@ -15,7 +15,6 @@ class HihgChartsWrapper extends Component {
 
     const redraw = () => {
       const w = document.querySelector(`.${ this.props.parentClass }`).offsetWidth;
-      const _h = document.querySelector(`.${ this.props.parentClass }`).offsetHeight;
 
       this.chart.setSize(w, w * (3/4));
     };
