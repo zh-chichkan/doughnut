@@ -1,5 +1,11 @@
-# NPM packages folder.
-node_modules/
-demo/node_modules/
+# dependencies
+node_modules
 
-lib/
+# production
+lib
+
+# misc
+.DS_Store
+.env
+.idea/
+npm-debug.log
